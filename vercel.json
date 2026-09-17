@@ -1,0 +1,14 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "rewrites": [
+    {
+      "source": "/__framer-metadata",
+      "destination": "https://pioneering-train-299390.framer.app/__framer-metadata"
+    },
+    {
+      "source": "/_framer/:path*",
+      "destination": "https://pioneering-train-299390.framer.app/_framer/:path*"
+    }
+  ]
+}
